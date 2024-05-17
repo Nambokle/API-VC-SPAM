@@ -1,4 +1,3 @@
-executor = ThreadPoolExecutor(max_workers=int(1000))
 def run(token):
   while True:
     ws = WebSocket()
